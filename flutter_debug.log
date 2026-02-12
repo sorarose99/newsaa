@@ -1,0 +1,131 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                             34.6s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           3.6s
+D/FlutterJNI(19168): Beginning load of flutter...
+D/FlutterJNI(19168): flutter (null) was loaded normally!
+I/flutter (19168): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+I/flutter (19168): supabase.supabase_flutter: INFO: ***** Supabase init completed ***** 
+Syncing files to device sdk gphone64 x86 64...                   1,891ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:59453/gvjr-SuvwYM=/
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at: http://127.0.0.1:9101?uri=http://127.0.0.1:59453/gvjr-SuvwYM=/
+I/flutter (19168): [SOUND_LOAD] ===== LOADING SOUND START =====
+I/flutter (19168): [SOUND_LOAD] ID: 737965ba-4368-4e53-862f-8b0402f2ade9
+I/flutter (19168): [SOUND_LOAD] Title: salah 1
+I/flutter (19168): [SOUND_LOAD] Language: ar
+I/flutter (19168): [SOUND_LOAD] Sound binary found - Type: String
+I/flutter (19168): [SOUND_LOAD] String length: 469152 characters
+I/flutter (19168): [SOUND_LOAD] Detected: Base64 format
+I/flutter (19168): [SOUND_LOAD] √ Decoded: 351862 bytes
+I/flutter (19168): [SOUND_LOAD] Audio header (first 4 bytes): 49 44 33 04
+I/flutter (19168): [SOUND_LOAD] Final result: soundBinary=351862 bytes
+I/flutter (19168): [SOUND_LOAD] ===== LOADING SOUND END =====
+I/flutter (19168): [SOUND_LOAD] ===== LOADING SOUND START =====
+I/flutter (19168): [SOUND_LOAD] ID: fcb98f81-cb4e-4c09-bdad-8a9600bd57f0
+I/flutter (19168): [SOUND_LOAD] Title: salah2
+I/flutter (19168): [SOUND_LOAD] Language: ar
+I/flutter (19168): [SOUND_LOAD] Sound binary found - Type: String
+I/flutter (19168): [SOUND_LOAD] String length: 197756 characters
+I/flutter (19168): [SOUND_LOAD] Detected: Base64 format
+I/flutter (19168): [SOUND_LOAD] √ Decoded: 148316 bytes
+I/flutter (19168): [SOUND_LOAD] Audio header (first 4 bytes): 49 44 33 04
+I/flutter (19168): [SOUND_LOAD] Final result: soundBinary=148316 bytes
+I/flutter (19168): [SOUND_LOAD] ===== LOADING SOUND END =====
+I/flutter (19168): [SOUND_LOAD] ===== LOADING SOUND START =====
+I/flutter (19168): [SOUND_LOAD] ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19168): [SOUND_LOAD] Title: default
+I/flutter (19168): [SOUND_LOAD] Language: ar
+I/flutter (19168): [SOUND_LOAD] Sound binary found - Type: String
+I/flutter (19168): [SOUND_LOAD] String length: 98540 characters
+I/flutter (19168): [SOUND_LOAD] Detected: Base64 format
+I/flutter (19168): [SOUND_LOAD] √ Decoded: 73905 bytes
+I/flutter (19168): [SOUND_LOAD] Audio header (first 4 bytes): 49 44 33 04
+I/flutter (19168): [SOUND_LOAD] Final result: soundBinary=73905 bytes
+I/flutter (19168): [SOUND_LOAD] ===== LOADING SOUND END =====
+I/flutter (19168): ========== SCHEDULING REMINDERS ==========
+I/flutter (19168): Reminders Enabled: true
+I/flutter (19168): Interval: 15 minutes
+I/flutter (19168): Selected Format: اللهم صل وسلم على نبينا محمد
+I/flutter (19168): Selected Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/Choreographer(19168): Skipped 74 frames!  The application may be doing too much work on its main thread.
+I/flutter (19168): ========== SCHEDULING REMINDERS ==========
+I/flutter (19168): Reminders Enabled: true
+I/flutter (19168): Interval: 15 minutes
+I/flutter (19168): Selected Format: اللهم صل وسلم على نبينا محمد
+I/flutter (19168): Selected Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19168): √ All previous notifications cancelled
+I/flutter (19168): [SOUND_LOAD] √ Found saved reminder sound in local storage
+I/flutter (19168): [SOUND_LOAD] Sound title: default
+I/flutter (19168): [SOUND_LOAD] √ Loaded saved sound from local storage: 73905 bytes
+I/flutter (19168): [SCHEDULE] Setting up notification callback to play audio...
+I/flutter (19168): [SCHEDULE] Calling scheduleRepeatingNotification...
+I/flutter (19168): [SCHEDULE] Sound available: true
+I/flutter (19168): [SCHEDULE] Reminder Interval: 15 minutes
+I/flutter (19168): [NOTIFICATION] ===== NOTIFICATION SCHEDULING START =====
+I/flutter (19168): [NOTIFICATION] ID: 1, Title: تذكير الصلاة على النبي
+I/flutter (19168): [NOTIFICATION] Interval: 15 minutes
+I/flutter (19168): [NOTIFICATION] Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19168): [NOTIFICATION] Scheduling notification every 15 minutes
+I/flutter (19168): [NOTIFICATION] Canceling existing notifications...
+I/flutter (19168): √ All previous notifications cancelled
+I/flutter (19168): [SOUND_LOAD] √ Found saved reminder sound in local storage
+I/flutter (19168): [SOUND_LOAD] Sound title: default
+I/flutter (19168): [SOUND_LOAD] √ Loaded saved sound from local storage: 73905 bytes
+I/flutter (19168): [SCHEDULE] Setting up notification callback to play audio...
+I/flutter (19168): [SCHEDULE] Calling scheduleRepeatingNotification...
+I/flutter (19168): [SCHEDULE] Sound available: true
+I/flutter (19168): [SCHEDULE] Reminder Interval: 15 minutes
+I/flutter (19168): [NOTIFICATION] ===== NOTIFICATION SCHEDULING START =====
+I/flutter (19168): [NOTIFICATION] ID: 1, Title: تذكير الصلاة على النبي
+I/flutter (19168): [NOTIFICATION] Interval: 15 minutes
+I/flutter (19168): [NOTIFICATION] Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19168): [NOTIFICATION] Scheduling notification every 15 minutes
+I/flutter (19168): [NOTIFICATION] Canceling existing notifications...
+D/InsetsController(19168): hide(ime(), fromIme=false)
+I/ImeTracker(19168): com.example.alslat_aalnabi:1daf52f0: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/flutter (19168): [NOTIFICATION] Showing first notification (without system sound)...
+I/flutter (19168): [NOTIFICATION] Showing first notification (without system sound)...
+I/flutter (19168): [NOTIFICATION] √ First notification shown
+I/flutter (19168): [SCHEDULE] Notification shown callback triggered - playing audio
+I/flutter (19168): [AUDIO] Playing reminder sound...
+I/flutter (19168): [NOTIFICATION] Scheduling notification 1 to dismiss after 8 seconds
+I/flutter (19168): [NOTIFICATION] Starting Timer for recurring notifications...
+I/flutter (19168): [NOTIFICATION] √ Timer scheduled for every 15 minutes
+I/flutter (19168): [SCHEDULE] √ Reminders scheduled successfully
+I/flutter (19168): [SCHEDULE] Auto-dismiss after: 8 seconds
+I/flutter (19168): [SCHEDULE] Next reminder in 15 minutes
+I/flutter (19168): =========================================
+I/flutter (19168): [NOTIFICATION] √ First notification shown
+I/flutter (19168): [SCHEDULE] Notification shown callback triggered - playing audio
+I/flutter (19168): [AUDIO] Playing reminder sound...
+I/flutter (19168): [NOTIFICATION] Scheduling notification 1 to dismiss after 8 seconds
+I/flutter (19168): [NOTIFICATION] Starting Timer for recurring notifications...
+I/flutter (19168): [NOTIFICATION] √ Timer scheduled for every 15 minutes
+I/flutter (19168): [SCHEDULE] √ Reminders scheduled successfully
+I/flutter (19168): [SCHEDULE] Auto-dismiss after: 8 seconds
+I/flutter (19168): [SCHEDULE] Next reminder in 15 minutes
+I/flutter (19168): =========================================
+D/AudioSystem(19168): onNewServiceWithAdapter: media.audio_flinger service obtained 0x7fb5b7ef4910
+D/AudioSystem(19168): getService: checking for service media.audio_flinger: 0x7fb677eb7cd0
+V/MediaPlayer(19168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+V/MediaPlayer(19168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/flutter (19168): [AUDIO] √ Reminder sound playback initiated
+I/flutter (19168): [AUDIO] √ Reminder sound playback initiated
+I/.alslat_aalnabi(19168): Background concurrent mark compact GC freed 1365KB AllocSpace bytes, 6(788KB) LOS objects, 49% free, 3080KB/6160KB, paused 5.084ms,7.733ms total 103.137ms
+V/MediaPlayer(19168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+V/MediaPlayer(19168): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19168): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/flutter (19168): [NOTIFICATION] Auto-dismissing notification 1
+I/flutter (19168): [NOTIFICATION] √ Notification 1 auto-dismissed

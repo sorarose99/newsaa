@@ -1,0 +1,159 @@
+Analyzing salat...                                              
+
+warning • 'deprecated_member_use' is not a recognized lint rule • analysis_options.yaml:26:5 • undefined_lint
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' • lib/core/services/audio_service.dart:3:8 • unnecessary_import
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' • lib/features/admin/presentation/pages/prayer_formula_sounds_management_page.dart:1:8 • unnecessary_import
+warning • Unused import: 'dart:developer' • lib/features/admin/presentation/pages/prayer_formula_sounds_management_page.dart:10:8 • unused_import
+   info • The constant name 'COUNTRY_CODE' isn't a lowerCamelCase identifier • lib/features/quran/core/services/languages/app_constants.dart:4:23 • constant_identifier_names
+   info • The constant name 'LANGUAGE_CODE' isn't a lowerCamelCase identifier • lib/features/quran/core/services/languages/app_constants.dart:5:23 • constant_identifier_names
+   info • The local variable '_languages' starts with an underscore • lib/features/quran/core/services/languages/dependency_inj.dart:13:36 • no_leading_underscores_for_local_identifiers
+   info • Unnecessary constructor invocation • lib/features/quran/core/services/languages/dependency_inj.dart:13:49 • prefer_collection_literals
+   info • The local variable '_mappedJson' starts with an underscore • lib/features/quran/core/services/languages/dependency_inj.dart:17:26 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_json' starts with an underscore • lib/features/quran/core/services/languages/dependency_inj.dart:19:25 • no_leading_underscores_for_local_identifiers
+   info • Unnecessary constructor invocation • lib/features/quran/core/services/languages/dependency_inj.dart:19:33 • prefer_collection_literals
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:25:3 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:25:23 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:25:32 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:33:3 • strict_top_level_inference
+   info • The file name 'custom_error_snackBar.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/core/utils/constants/extensions/custom_error_snackBar.dart:1:1 • file_names
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:10:33 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:10:41 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:15:30 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:15:38 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:38:27 • strict_top_level_inference
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/extensions.dart:43:9 • sort_child_properties_last
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:62:9 • strict_top_level_inference
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/extensions.dart:71:9 • sort_child_properties_last
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:101:32 • strict_top_level_inference
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/extensions.dart:106:9 • sort_child_properties_last
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/font_size_extension.dart:38:11 • sort_child_properties_last
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:64:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:73:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:82:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:93:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:102:17 • unnecessary_this
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:88:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:94:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:100:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:106:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:112:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:118:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:124:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:130:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:136:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:142:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:148:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:154:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:160:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:166:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:172:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:178:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:184:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:190:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:196:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:202:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:221:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:221:47 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:222:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:222:44 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:223:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:223:44 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:224:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:224:42 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:225:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:225:43 • unnecessary_string_interpolations
+   info • The variable name 'SETTED_DATE_FOR_ZEKER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:28:14 • non_constant_identifier_names
+   info • The variable name 'ZEKER_OF_THE_DAY_AND_ID' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:29:14 • non_constant_identifier_names
+   info • The variable name 'SURAH_READER_INDEX' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:30:14 • non_constant_identifier_names
+   info • The variable name 'SELECT_MUSHAF_SETTINGS' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:31:14 • non_constant_identifier_names
+   info • The variable name 'LAST_SHOWN_UPDATE_INDEX' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:32:14 • non_constant_identifier_names
+   info • The variable name 'IS_BOLD' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:33:14 • non_constant_identifier_names
+   info • The variable name 'KHATMAH' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:34:14 • non_constant_identifier_names
+   info • The variable name 'SETTED_DATE_FOR_AYAH' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:35:14 • non_constant_identifier_names
+   info • The variable name 'AYAH_OF_THE_DAY_AND_AYAH_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:36:14 • non_constant_identifier_names
+   info • The variable name 'AYAH_OF_THE_DAY' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:37:14 • non_constant_identifier_names
+   info • The variable name 'TAFSIR_OF_THE_DAY_AND_TAFSIR_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:38:14 • non_constant_identifier_names
+   info • The variable name 'CASHED_TAFSIR' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:40:14 • non_constant_identifier_names
+   info • The variable name 'TAFSIR_OF_THE_DAY_RADIO_VALUE' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:41:14 • non_constant_identifier_names
+   info • The variable name 'ACTIVE_LOCATION' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:42:14 • non_constant_identifier_names
+   info • The variable name 'SHAFI' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:43:14 • non_constant_identifier_names
+   info • The variable name 'HANAFI' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:44:14 • non_constant_identifier_names
+   info • The variable name 'HIGH_LATITUDE_RULE' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:45:14 • non_constant_identifier_names
+   info • The variable name 'AUTO_CALCULATION' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:46:14 • non_constant_identifier_names
+   info • The variable name 'ADHAN_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:47:14 • non_constant_identifier_names
+   info • The variable name 'ADHAN_SELECT' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:48:14 • non_constant_identifier_names
+   info • The variable name 'PAGE_MODE' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:49:14 • non_constant_identifier_names
+   info • The variable name 'PAGE_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:50:14 • non_constant_identifier_names
+   info • The variable name 'BOOK_NAME' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:51:14 • non_constant_identifier_names
+   info • The variable name 'BOOK_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:52:14 • non_constant_identifier_names
+   info • The variable name 'TOTAL_PAGES' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:53:14 • non_constant_identifier_names
+   info • The variable name 'DOWNLOADED_BOOKS' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:54:14 • non_constant_identifier_names
+   info • The variable name 'IS_TASHKIL' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:55:14 • non_constant_identifier_names
+   info • The variable name 'BACKGROUND_PICKER_COLOR' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:56:14 • non_constant_identifier_names
+   info • The variable name 'SEARCH_HISTORY' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:57:14 • non_constant_identifier_names
+   info • The variable name 'AUDIO_SERVICE_INITIALIZED' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:58:14 • non_constant_identifier_names
+   info • The local variable '_size' starts with an underscore • lib/features/quran/core/utils/helpers/responsive.dart:33:16 • no_leading_underscores_for_local_identifiers
+   info • An uninitialized field should have an explicit type annotation • lib/features/quran/core/widgets/custom_paint/custom_slider.dart:6:9 • prefer_typing_uninitialized_variables
+   info • Missing type annotation • lib/features/quran/core/widgets/custom_paint/custom_slider.dart:6:9 • strict_top_level_inference
+   info • Parameter 'key' could be a super parameter • lib/features/quran/core/widgets/elevated_layer_button.dart:20:3 • use_super_parameters
+   info • Unnecessary braces in a string interpolation • lib/features/quran/core/widgets/local_notification/controller/local_notifications_controller.dart:131:25 • unnecessary_brace_in_string_interps
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/core/widgets/local_notification/widgets/notification_widget.dart:10:3 • use_key_in_widget_constructors
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/core/widgets/mushaf_settings.dart:79:41 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/core/widgets/mushaf_settings.dart:82:39 • deprecated_member_use
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/core/widgets/seek_bar.dart:82:3 • use_key_in_widget_constructors
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/features/quran/core/widgets/seek_bar.dart:82:3 • prefer_const_constructors_in_immutables
+   info • Invalid use of a private type in a public API • lib/features/quran/core/widgets/seek_bar.dart:104:3 • library_private_types_in_public_api
+   info • Parameter 'key' could be a super parameter • lib/features/quran/core/widgets/settings_list.dart:14:3 • use_super_parameters
+   info • The file name 'share_ayahToImage.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/core/widgets/share/share_ayahToImage.dart:1:1 • file_names
+   info • The file name 'share_tafseerToImage.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/core/widgets/share/share_tafseerToImage.dart:1:1 • file_names
+   info • The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/features/quran/core/widgets/share/share_tafseerToImage.dart:1:8 • unnecessary_import
+   info • Unnecessary use of string interpolation • lib/features/quran/core/widgets/share/share_tafseerToImage.dart:156:35 • unnecessary_string_interpolations
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/core/widgets/theme_change.dart:70:32 • deprecated_member_use
+   info • The file name 'notificationDatabase.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/database/notificationDatabase.dart:1:1 • file_names
+   info • The file name 'myApp.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/myApp.dart:1:1 • file_names
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/controllers/elevated_button_controller.dart:16:36 • unnecessary_brace_in_string_interps
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/controllers/elevated_button_controller.dart:20:38 • unnecessary_brace_in_string_interps
+   info • The imported package 'flutter_cache_manager' isn't a dependency of the importing package • lib/features/quran/presentation/controllers/general/extensions/general_getters.dart:1:8 • depend_on_referenced_packages
+   info • Missing type annotation • lib/features/quran/presentation/controllers/general/general_controller.dart:30:3 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/presentation/controllers/general/general_controller.dart:38:3 • strict_top_level_inference
+   info • The private field _currentTheme could be 'final' • lib/features/quran/presentation/controllers/theme_controller.dart:15:16 • prefer_final_fields
+   info • 'ConcatenatingAudioSource' is deprecated and shouldn't be used. Use AudioPlayer.setAudioSources instead • lib/features/quran/presentation/screens/quran_page/controllers/audio/audio_controller.dart:338:11 • deprecated_member_use
+   info • The parameter name 'states' doesn't match the name 'state' in the overridden method • lib/features/quran/presentation/screens/quran_page/controllers/audio/audio_controller.dart:429:53 • avoid_renaming_method_parameters
+   info • Unnecessary use of string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/extensions/audio/audio_getters.dart:13:9 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/extensions/audio/audio_getters.dart:25:16 • unnecessary_string_interpolations
+   info • The 'if' statement could be replaced by a null-aware assignment • lib/features/quran/presentation/screens/quran_page/controllers/extensions/quran/quran_getters.dart:63:5 • prefer_conditional_assignment
+   info • The 'if' statement could be replaced by a null-aware assignment • lib/features/quran/presentation/screens/quran_page/controllers/extensions/quran/quran_getters.dart:72:5 • prefer_conditional_assignment
+   info • The type of the right operand ('int') isn't a subtype or a supertype of the left operand ('RxInt') • lib/features/quran/presentation/screens/quran_page/controllers/extensions/quran/quran_ui.dart:28:23 • unrelated_type_equality_checks
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/presentation/screens/quran_page/controllers/khatmah_controller.dart:12:59 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/presentation/screens/quran_page/controllers/khatmah_controller.dart:50:65 • deprecated_member_use
+   info • Use interpolation to compose strings and values • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:71:13 • prefer_interpolation_to_compose_strings
+   info • 'ConcatenatingAudioSource' is deprecated and shouldn't be used. Use AudioPlayer.setAudioSources instead • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:89:9 • deprecated_member_use
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:100:89 • unnecessary_brace_in_string_interps
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:102:94 • unnecessary_brace_in_string_interps
+   info • 'ConcatenatingAudioSource' is deprecated and shouldn't be used. Use AudioPlayer.setAudioSources instead • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:169:7 • deprecated_member_use
+   info • Use interpolation to compose strings and values • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:177:9 • prefer_interpolation_to_compose_strings
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:295:3 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:313:3 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:322:3 • strict_top_level_inference
+   info • The variable name 'ScrollUpDownQuranPage' isn't a lowerCamelCase identifier • lib/features/quran/presentation/screens/quran_page/controllers/quran/quran_state.dart:13:20 • non_constant_identifier_names
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/translate_controller.dart:41:3 • strict_top_level_inference
+   info • The prefix 'R' isn't a lower_case_with_underscores identifier • lib/features/quran/presentation/screens/quran_page/quran.dart:36:40 • library_prefixes
+   info • Parameter 'key' could be a super parameter • lib/features/quran/presentation/screens/quran_page/screens/quran_home.dart:4:3 • use_super_parameters
+   info • Parameter 'key' could be a super parameter • lib/features/quran/presentation/screens/quran_page/screens/quran_page.dart:4:3 • use_super_parameters
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/quran/presentation/screens/quran_page/screens/quran_page.dart:22:11 • sized_box_for_whitespace
+   info • Parameter 'key' could be a super parameter • lib/features/quran/presentation/screens/quran_page/widgets/audio/audio_widget.dart:4:3 • use_super_parameters
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/presentation/screens/quran_page/widgets/audio/change_reader.dart:10:7 • sort_child_properties_last
+   info • Unnecessary use of string interpolation • lib/features/quran/presentation/screens/quran_page/widgets/ayahs/ayahs_menu.dart:63:23 • unnecessary_string_interpolations
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/screens/quran_page/widgets/buttons/copy_button.dart:26:19 • unnecessary_brace_in_string_interps
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/data/data_source/khatmah_database.g.dart:1308:26 • unnecessary_null_comparison
+warning • Dead code • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/data/data_source/khatmah_database.g.dart:1308:35 • dead_code
+warning • The '!' will have no effect because the receiver can't be null • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/data/data_source/khatmah_database.g.dart:1310:45 • unnecessary_non_null_assertion
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/screen/khatmahs_screen.dart:5:3 • prefer_const_constructors_in_immutables
+   info • The file name 'playList_model.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/presentation/screens/quran_page/widgets/playlist/data/models/playList_model.dart:1:1 • file_names
+   info • Unnecessary instance of 'Container' • lib/features/quran/presentation/screens/quran_page/widgets/search/quran_search.dart:160:24 • avoid_unnecessary_containers
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/presentation/screens/quran_page/widgets/search/search_bar.dart:4:9 • use_key_in_widget_constructors
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/presentation/screens/quran_page/widgets/search/search_bar.dart:63:9 • use_key_in_widget_constructors
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/features/quran/presentation/screens/quran_page/widgets/search/search_bar_widget.dart:11:3 • prefer_const_constructors_in_immutables
+   info • Missing type annotation • lib/features/splash/presentation/pages/splash_page.dart:18:3 • strict_top_level_inference
+   info • The imported package 'supabase' isn't a dependency of the importing package • scripts/supabase_admin.dart:2:8 • depend_on_referenced_packages
+

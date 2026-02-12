@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "853982343704",
+    "project_id": "salatalaalnabi1",
+    "storage_bucket": "salatalaalnabi1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853982343704:android:faf9f3d3313acc1f2d096d",
+        "android_client_info": {
+          "package_name": "com.example.alslat_aalnabi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSYIYga8RqRqpRdexVc5uuPuZCxWWm0x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

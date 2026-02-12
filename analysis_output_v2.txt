@@ -1,0 +1,542 @@
+Analyzing Prophet_Mohammed-main...                              
+
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/admin/presentation/pages/admin_login_page.dart:128:74 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/admin/presentation/pages/admin_login_page.dart:155:74 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps • lib/features/admin/presentation/pages/admin_login_page.dart:227:41 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/features/admin/presentation/pages/admin_login_page.dart:239:66 • use_build_context_synchronously
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' • lib/features/admin/presentation/pages/prayer_formula_sounds_management_page.dart:1:8 • unnecessary_import
+warning • Unused import: 'dart:developer' • lib/features/admin/presentation/pages/prayer_formula_sounds_management_page.dart:10:8 • unused_import
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/admin/presentation/pages/prayer_formula_sounds_management_page.dart:290:19 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/admin/presentation/pages/prayer_formula_sounds_management_page.dart:545:19 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/admin/presentation/pages/virtues_management_page.dart:543:19 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/admin/presentation/pages/virtues_management_page.dart:627:19 • deprecated_member_use
+   info • The constant name 'COUNTRY_CODE' isn't a lowerCamelCase identifier • lib/features/quran/core/services/languages/app_constants.dart:4:23 • constant_identifier_names
+   info • The constant name 'LANGUAGE_CODE' isn't a lowerCamelCase identifier • lib/features/quran/core/services/languages/app_constants.dart:5:23 • constant_identifier_names
+   info • The local variable '_languages' starts with an underscore • lib/features/quran/core/services/languages/dependency_inj.dart:13:36 • no_leading_underscores_for_local_identifiers
+   info • Unnecessary constructor invocation • lib/features/quran/core/services/languages/dependency_inj.dart:13:49 • prefer_collection_literals
+   info • The local variable '_mappedJson' starts with an underscore • lib/features/quran/core/services/languages/dependency_inj.dart:17:26 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_json' starts with an underscore • lib/features/quran/core/services/languages/dependency_inj.dart:19:25 • no_leading_underscores_for_local_identifiers
+   info • Unnecessary constructor invocation • lib/features/quran/core/services/languages/dependency_inj.dart:19:33 • prefer_collection_literals
+   info • Don't invoke 'print' in production code • lib/features/quran/core/services/notifications_manager.dart:62:7 • avoid_print
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:25:3 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:25:23 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:25:32 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/alignment_rotated_extension.dart:33:3 • strict_top_level_inference
+   info • Don't invoke 'print' in production code • lib/features/quran/core/utils/constants/extensions/contact_us_extension.dart:11:7 • avoid_print
+   info • The file name 'custom_error_snackBar.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/core/utils/constants/extensions/custom_error_snackBar.dart:1:1 • file_names
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:10:33 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:10:41 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:15:30 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:15:38 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:38:27 • strict_top_level_inference
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/extensions.dart:43:9 • sort_child_properties_last
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:62:9 • strict_top_level_inference
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/extensions.dart:71:9 • sort_child_properties_last
+   info • Missing type annotation • lib/features/quran/core/utils/constants/extensions/extensions.dart:101:32 • strict_top_level_inference
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/extensions.dart:106:9 • sort_child_properties_last
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/core/utils/constants/extensions/font_size_extension.dart:38:11 • sort_child_properties_last
+   info • Don't invoke 'print' in production code • lib/features/quran/core/utils/constants/extensions/launch_alheekmah_url_extension.dart:9:7 • avoid_print
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:64:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:73:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:82:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:93:17 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/features/quran/core/utils/constants/extensions/menu_extension.dart:102:17 • unnecessary_this
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:88:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:94:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:100:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:106:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:112:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:118:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:124:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:130:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:136:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:142:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:148:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:154:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:160:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:166:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:172:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:178:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:184:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:190:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:196:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:202:16 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:221:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:221:47 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:222:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:222:44 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:223:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:223:44 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:224:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:224:42 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:225:12 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/core/utils/constants/lists.dart:225:43 • unnecessary_string_interpolations
+   info • The variable name 'SETTED_DATE_FOR_ZEKER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:28:14 • non_constant_identifier_names
+   info • The variable name 'ZEKER_OF_THE_DAY_AND_ID' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:29:14 • non_constant_identifier_names
+   info • The variable name 'SURAH_READER_INDEX' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:30:14 • non_constant_identifier_names
+   info • The variable name 'SELECT_MUSHAF_SETTINGS' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:31:14 • non_constant_identifier_names
+   info • The variable name 'LAST_SHOWN_UPDATE_INDEX' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:32:14 • non_constant_identifier_names
+   info • The variable name 'IS_BOLD' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:33:14 • non_constant_identifier_names
+   info • The variable name 'KHATMAH' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:34:14 • non_constant_identifier_names
+   info • The variable name 'SETTED_DATE_FOR_AYAH' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:35:14 • non_constant_identifier_names
+   info • The variable name 'AYAH_OF_THE_DAY_AND_AYAH_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:36:14 • non_constant_identifier_names
+   info • The variable name 'AYAH_OF_THE_DAY' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:37:14 • non_constant_identifier_names
+   info • The variable name 'TAFSIR_OF_THE_DAY_AND_TAFSIR_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:38:14 • non_constant_identifier_names
+   info • The variable name 'CASHED_TAFSIR' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:40:14 • non_constant_identifier_names
+   info • The variable name 'TAFSIR_OF_THE_DAY_RADIO_VALUE' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:41:14 • non_constant_identifier_names
+   info • The variable name 'ACTIVE_LOCATION' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:42:14 • non_constant_identifier_names
+   info • The variable name 'SHAFI' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:43:14 • non_constant_identifier_names
+   info • The variable name 'HANAFI' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:44:14 • non_constant_identifier_names
+   info • The variable name 'HIGH_LATITUDE_RULE' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:45:14 • non_constant_identifier_names
+   info • The variable name 'AUTO_CALCULATION' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:46:14 • non_constant_identifier_names
+   info • The variable name 'ADHAN_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:47:14 • non_constant_identifier_names
+   info • The variable name 'ADHAN_SELECT' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:48:14 • non_constant_identifier_names
+   info • The variable name 'PAGE_MODE' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:49:14 • non_constant_identifier_names
+   info • The variable name 'PAGE_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:50:14 • non_constant_identifier_names
+   info • The variable name 'BOOK_NAME' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:51:14 • non_constant_identifier_names
+   info • The variable name 'BOOK_NUMBER' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:52:14 • non_constant_identifier_names
+   info • The variable name 'TOTAL_PAGES' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:53:14 • non_constant_identifier_names
+   info • The variable name 'DOWNLOADED_BOOKS' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:54:14 • non_constant_identifier_names
+   info • The variable name 'IS_TASHKIL' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:55:14 • non_constant_identifier_names
+   info • The variable name 'BACKGROUND_PICKER_COLOR' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:56:14 • non_constant_identifier_names
+   info • The variable name 'SEARCH_HISTORY' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:57:14 • non_constant_identifier_names
+   info • The variable name 'AUDIO_SERVICE_INITIALIZED' isn't a lowerCamelCase identifier • lib/features/quran/core/utils/constants/shared_preferences_constants.dart:58:14 • non_constant_identifier_names
+   info • The local variable '_size' starts with an underscore • lib/features/quran/core/utils/helpers/responsive.dart:33:16 • no_leading_underscores_for_local_identifiers
+   info • Don't invoke 'print' in production code • lib/features/quran/core/utils/helpers/ui_helper.dart:39:15 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/core/utils/helpers/ui_helper.dart:42:15 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/core/utils/helpers/ui_helper.dart:45:15 • avoid_print
+   info • An uninitialized field should have an explicit type annotation • lib/features/quran/core/widgets/custom_paint/custom_slider.dart:6:9 • prefer_typing_uninitialized_variables
+   info • Missing type annotation • lib/features/quran/core/widgets/custom_paint/custom_slider.dart:6:9 • strict_top_level_inference
+   info • Parameter 'key' could be a super parameter • lib/features/quran/core/widgets/elevated_layer_button.dart:20:3 • use_super_parameters
+   info • Unnecessary braces in a string interpolation • lib/features/quran/core/widgets/local_notification/controller/local_notifications_controller.dart:131:25 • unnecessary_brace_in_string_interps
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/core/widgets/local_notification/widgets/notification_widget.dart:10:3 • use_key_in_widget_constructors
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/core/widgets/mushaf_settings.dart:79:41 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/core/widgets/mushaf_settings.dart:82:39 • deprecated_member_use
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/core/widgets/seek_bar.dart:82:3 • use_key_in_widget_constructors
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/features/quran/core/widgets/seek_bar.dart:82:3 • prefer_const_constructors_in_immutables
+   info • Invalid use of a private type in a public API • lib/features/quran/core/widgets/seek_bar.dart:104:3 • library_private_types_in_public_api
+   info • Parameter 'key' could be a super parameter • lib/features/quran/core/widgets/settings_list.dart:14:3 • use_super_parameters
+   info • The file name 'share_ayahToImage.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/core/widgets/share/share_ayahToImage.dart:1:1 • file_names
+   info • Don't use 'BuildContext's across async gaps • lib/features/quran/core/widgets/share/share_ayah_options.dart:210:15 • use_build_context_synchronously
+   info • The file name 'share_tafseerToImage.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/core/widgets/share/share_tafseerToImage.dart:1:1 • file_names
+   info • The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/features/quran/core/widgets/share/share_tafseerToImage.dart:1:8 • unnecessary_import
+   info • Unnecessary use of string interpolation • lib/features/quran/core/widgets/share/share_tafseerToImage.dart:156:35 • unnecessary_string_interpolations
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/core/widgets/theme_change.dart:70:32 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:8:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:13:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:23:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:28:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:34:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:42:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:48:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:56:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:69:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/database/bookmark_db/db_bookmark_helper.dart:89:5 • avoid_print
+   info • The file name 'notificationDatabase.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/database/notificationDatabase.dart:1:1 • file_names
+   info • The file name 'myApp.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/myApp.dart:1:1 • file_names
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/controllers/elevated_button_controller.dart:16:36 • unnecessary_brace_in_string_interps
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/controllers/elevated_button_controller.dart:20:38 • unnecessary_brace_in_string_interps
+   info • The imported package 'flutter_cache_manager' isn't a dependency of the importing package • lib/features/quran/presentation/controllers/general/extensions/general_getters.dart:1:8 • depend_on_referenced_packages
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/controllers/general/extensions/general_getters.dart:22:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/controllers/general/extensions/general_getters.dart:36:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/controllers/general/general_controller.dart:20:9 • avoid_print
+   info • Missing type annotation • lib/features/quran/presentation/controllers/general/general_controller.dart:30:3 • strict_top_level_inference
+   info • Missing type annotation • lib/features/quran/presentation/controllers/general/general_controller.dart:38:3 • strict_top_level_inference
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/controllers/general/general_controller.dart:43:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/controllers/settings_controller.dart:75:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/controllers/settings_controller.dart:89:5 • avoid_print
+   info • The private field _currentTheme could be 'final' • lib/features/quran/presentation/controllers/theme_controller.dart:15:16 • prefer_final_fields
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/audio/audio_controller.dart:132:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/audio/audio_controller.dart:200:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/audio/audio_controller.dart:202:9 • avoid_print
+   info • 'ConcatenatingAudioSource' is deprecated and shouldn't be used. Use AudioPlayer.setAudioSources instead • lib/features/quran/presentation/screens/quran_page/controllers/audio/audio_controller.dart:336:11 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/audio/audio_controller.dart:393:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/bookmarks_controller.dart:34:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/bookmarks_controller.dart:37:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/bookmarks_controller.dart:38:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/bookmarks_controller.dart:176:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/bookmarks_controller.dart:179:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/bookmarks_controller.dart:180:7 • avoid_print
+   info • Unnecessary use of string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/extensions/audio/audio_getters.dart:13:9 • unnecessary_string_interpolations
+   info • Unnecessary use of string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/extensions/audio/audio_getters.dart:25:16 • unnecessary_string_interpolations
+   info • The 'if' statement could be replaced by a null-aware assignment • lib/features/quran/presentation/screens/quran_page/controllers/extensions/quran/quran_getters.dart:63:5 • prefer_conditional_assignment
+   info • The 'if' statement could be replaced by a null-aware assignment • lib/features/quran/presentation/screens/quran_page/controllers/extensions/quran/quran_getters.dart:72:5 • prefer_conditional_assignment
+   info • The type of the right operand ('int') isn't a subtype or a supertype of the left operand ('RxInt') • lib/features/quran/presentation/screens/quran_page/controllers/extensions/quran/quran_ui.dart:28:23 • unrelated_type_equality_checks
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/presentation/screens/quran_page/controllers/khatmah_controller.dart:12:59 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/quran/presentation/screens/quran_page/controllers/khatmah_controller.dart:50:65 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/khatmah_controller.dart:161:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/khatmah_controller.dart:164:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/khatmah_controller.dart:224:7 • avoid_print
+   info • Use interpolation to compose strings and values • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:71:13 • prefer_interpolation_to_compose_strings
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:82:11 • avoid_print
+   info • 'ConcatenatingAudioSource' is deprecated and shouldn't be used. Use AudioPlayer.setAudioSources instead • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:89:9 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:92:7 • avoid_print
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:100:89 • unnecessary_brace_in_string_interps
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:102:94 • unnecessary_brace_in_string_interps
+   info • 'ConcatenatingAudioSource' is deprecated and shouldn't be used. Use AudioPlayer.setAudioSources instead • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:169:7 • deprecated_member_use
+   info • Use interpolation to compose strings and values • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:177:9 • prefer_interpolation_to_compose_strings
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:183:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:203:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:210:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:216:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:292:5 • avoid_print
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:295:3 • strict_top_level_inference
+   info • Don't use 'BuildContext's across async gaps • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:299:23 • use_build_context_synchronously
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:313:3 • strict_top_level_inference
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:318:7 • avoid_print
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/playList_controller.dart:322:3 • strict_top_level_inference
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/quran/quran_controller.dart:126:7 • avoid_print
+   info • The variable name 'ScrollUpDownQuranPage' isn't a lowerCamelCase identifier • lib/features/quran/presentation/screens/quran_page/controllers/quran/quran_state.dart:13:20 • non_constant_identifier_names
+   info • Missing type annotation • lib/features/quran/presentation/screens/quran_page/controllers/translate_controller.dart:40:3 • strict_top_level_inference
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/controllers/translate_controller.dart:93:5 • avoid_print
+   info • The prefix 'R' isn't a lower_case_with_underscores identifier • lib/features/quran/presentation/screens/quran_page/quran.dart:36:40 • library_prefixes
+   info • Parameter 'key' could be a super parameter • lib/features/quran/presentation/screens/quran_page/screens/quran_home.dart:4:3 • use_super_parameters
+   info • Parameter 'key' could be a super parameter • lib/features/quran/presentation/screens/quran_page/screens/quran_page.dart:4:3 • use_super_parameters
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/quran/presentation/screens/quran_page/screens/quran_page.dart:22:11 • sized_box_for_whitespace
+   info • Parameter 'key' could be a super parameter • lib/features/quran/presentation/screens/quran_page/widgets/audio/audio_widget.dart:4:3 • use_super_parameters
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/quran/presentation/screens/quran_page/widgets/audio/change_reader.dart:10:7 • sort_child_properties_last
+   info • Unnecessary use of string interpolation • lib/features/quran/presentation/screens/quran_page/widgets/ayahs/ayahs_menu.dart:63:23 • unnecessary_string_interpolations
+   info • Don't use 'BuildContext's across async gaps • lib/features/quran/presentation/screens/quran_page/widgets/buttons/add_bookmark_button.dart:46:28 • use_build_context_synchronously
+   info • Unnecessary braces in a string interpolation • lib/features/quran/presentation/screens/quran_page/widgets/buttons/copy_button.dart:26:19 • unnecessary_brace_in_string_interps
+   info • Don't use 'BuildContext's across async gaps • lib/features/quran/presentation/screens/quran_page/widgets/buttons/copy_button.dart:28:27 • use_build_context_synchronously
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/data/data_source/khatmah_database.g.dart:1308:26 • unnecessary_null_comparison
+warning • Dead code • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/data/data_source/khatmah_database.g.dart:1308:35 • dead_code
+warning • The '!' will have no effect because the receiver can't be null • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/data/data_source/khatmah_database.g.dart:1310:45 • unnecessary_non_null_assertion
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/features/quran/presentation/screens/quran_page/widgets/khatmah/screen/khatmahs_screen.dart:5:3 • prefer_const_constructors_in_immutables
+   info • The file name 'playList_model.dart' isn't a lower_case_with_underscores identifier • lib/features/quran/presentation/screens/quran_page/widgets/playlist/data/models/playList_model.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/features/quran/presentation/screens/quran_page/widgets/search/controller/quran_search_controller.dart:29:7 • avoid_print
+   info • Unnecessary instance of 'Container' • lib/features/quran/presentation/screens/quran_page/widgets/search/quran_search.dart:160:24 • avoid_unnecessary_containers
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/presentation/screens/quran_page/widgets/search/search_bar.dart:4:9 • use_key_in_widget_constructors
+   info • Constructors for public widgets should have a named 'key' parameter • lib/features/quran/presentation/screens/quran_page/widgets/search/search_bar.dart:63:9 • use_key_in_widget_constructors
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/features/quran/presentation/screens/quran_page/widgets/search/search_bar_widget.dart:11:3 • prefer_const_constructors_in_immutables
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/salawat_counter/presentation/pages/counter_page.dart:345:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/salawat_counter/presentation/pages/counter_page.dart:402:65 • deprecated_member_use
+   info • Missing type annotation • lib/features/splash/presentation/pages/splash_page.dart:18:3 • strict_top_level_inference
+   info • Don't use 'BuildContext's across async gaps • lib/features/virtues/presentation/pages/virtues_page.dart:1339:17 • use_build_context_synchronously
+warning • Unused import: 'dart:async' • packages/quran_library/lib/quran.dart:1:8 • unused_import
+warning • Unused import: 'dart:convert' • packages/quran_library/lib/quran.dart:2:8 • unused_import
+warning • Unused import: 'dart:developer' • packages/quran_library/lib/quran.dart:3:8 • unused_import
+warning • Unused import: 'dart:io' • packages/quran_library/lib/quran.dart:4:8 • unused_import
+warning • Unused import: 'dart:isolate' • packages/quran_library/lib/quran.dart:5:8 • unused_import
+warning • Unused import: 'dart:math' • packages/quran_library/lib/quran.dart:6:8 • unused_import
+warning • Unused import: 'package:arabic_justified_text/arabic_justified_text.dart' • packages/quran_library/lib/quran.dart:8:8 • unused_import
+warning • Unused import: 'package:archive/archive.dart' • packages/quran_library/lib/quran.dart:9:8 • unused_import
+warning • Unused import: 'package:dio/dio.dart' • packages/quran_library/lib/quran.dart:10:8 • unused_import
+warning • Unused import: 'package:flutter/foundation.dart' • packages/quran_library/lib/quran.dart:11:8 • unused_import
+warning • Unused import: 'package:flutter/gestures.dart' • packages/quran_library/lib/quran.dart:12:8 • unused_import
+warning • Unused import: 'package:flutter/material.dart' • packages/quran_library/lib/quran.dart:13:8 • unused_import
+warning • Unused import: 'package:flutter/scheduler.dart' • packages/quran_library/lib/quran.dart:14:8 • unused_import
+warning • Unused import: 'package:flutter/services.dart' • packages/quran_library/lib/quran.dart:15:8 • unused_import
+warning • Unused import: 'package:flutter_scale_kit/flutter_scale_kit.dart' • packages/quran_library/lib/quran.dart:16:8 • unused_import
+warning • Unused import: 'package:flutter_svg/svg.dart' • packages/quran_library/lib/quran.dart:17:8 • unused_import
+warning • Unused import: 'package:get/get.dart' • packages/quran_library/lib/quran.dart:18:8 • unused_import
+warning • Unused import: 'package:get_storage/get_storage.dart' • packages/quran_library/lib/quran.dart:19:8 • unused_import
+warning • Unused import: 'package:html/dom.dart' • packages/quran_library/lib/quran.dart:20:8 • unused_import
+warning • Unused import: 'package:html/parser.dart' • packages/quran_library/lib/quran.dart:21:8 • unused_import
+warning • Unused import: 'package:path_provider/path_provider.dart' • packages/quran_library/lib/quran.dart:22:8 • unused_import
+  error • The library is unnamed. A URI is expected, not a library name 'quran_library', in the part-of directive • packages/quran_library/lib/quran.dart:36:6 • part_of_unnamed_library
+  error • The library is unnamed. A URI is expected, not a library name 'quran_library', in the part-of directive • packages/quran_library/lib/quran.dart:87:6 • part_of_unnamed_library
+  error • The library is unnamed. A URI is expected, not a library name 'quran_library', in the part-of directive • packages/quran_library/lib/quran.dart:102:6 • part_of_unnamed_library
+  error • The library is unnamed. A URI is expected, not a library name 'quran_library', in the part-of directive • packages/quran_library/lib/quran.dart:103:6 • part_of_unnamed_library
+   info • The part-of directive uses a library name • packages/quran_library/lib/src/core/utils/assets_path.dart:1:1 • use_string_in_part_of_directives
+   info • The part-of directive uses a library name • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1:1 • use_string_in_part_of_directives
+  error • Classes can only extend other classes • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:3:25 • extends_non_class
+  error • The method 'GetInstance' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:4:36 • undefined_method
+  error • Undefined class 'QuranRepository' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:6:14 • undefined_class
+  error • The method 'QuranRepository' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:7:47 • undefined_method
+  error • Undefined class 'QuranRepository' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:10:9 • undefined_class
+  error • Undefined class 'QpcV4AssetsStore' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:16:3 • undefined_class
+  error • Undefined class 'QpcV4PageRenderer' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:18:3 • undefined_class
+  error • The name 'QpcV4RenderBlock' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:19:23 • non_type_as_type_argument
+  error • Undefined class 'Timer' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:22:3 • undefined_class
+  error • Undefined class 'QpcHafsWordByWordStore' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:25:3 • undefined_class
+  error • Undefined class 'QpcV4PageRenderer' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:27:3 • undefined_class
+  error • The name 'QpcV4RenderBlock' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:28:23 • non_type_as_type_argument
+  error • Undefined class 'Timer' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:31:3 • undefined_class
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:46:18 • non_type_as_type_argument
+  error • Undefined class 'RxList' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:55:3 • undefined_class
+  error • The name 'QuranPageModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:55:10 • non_type_as_type_argument
+  error • The name 'QuranPageModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:55:41 • non_type_as_type_argument
+  error • The getter 'obs' isn't defined for the type 'List<InvalidType>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:55:59 • undefined_getter
+  error • Undefined class 'RxList' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:56:3 • undefined_class
+  error • The getter 'obs' isn't defined for the type 'List<int>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:56:36 • undefined_getter
+  error • Undefined class 'RxList' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:57:3 • undefined_class
+  error • The getter 'obs' isn't defined for the type 'List<int>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:57:37 • undefined_getter
+  error • The name 'SurahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:58:14 • non_type_as_type_argument
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:59:14 • non_type_as_type_argument
+  error • Undefined class 'RxList' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:62:9 • undefined_class
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:62:16 • non_type_as_type_argument
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:62:48 • non_type_as_type_argument
+  error • The getter 'obs' isn't defined for the type 'List<InvalidType>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:62:61 • undefined_getter
+  error • Undefined class 'RxList' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:63:9 • undefined_class
+  error • The name 'SurahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:63:16 • non_type_as_type_argument
+  error • The name 'SurahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:63:50 • non_type_as_type_argument
+  error • The getter 'obs' isn't defined for the type 'List<InvalidType>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:63:64 • undefined_getter
+  error • The getter 'obs' isn't defined for the type 'List<int>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:66:47 • undefined_getter
+  error • Undefined class 'RxDouble' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:68:3 • undefined_class
+  error • The getter 'obs' isn't defined for the type 'double' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:68:30 • undefined_getter
+  error • Undefined class 'RxDouble' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:69:3 • undefined_class
+  error • The getter 'obs' isn't defined for the type 'double' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:69:34 • undefined_getter
+  error • The getter 'obs' isn't defined for the type 'bool' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:70:26 • undefined_getter
+  error • Undefined class 'RxList' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:71:3 • undefined_class
+  error • The name 'SurahNamesModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:71:10 • non_type_as_type_argument
+  error • The name 'SurahNamesModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:71:41 • non_type_as_type_argument
+  error • The getter 'obs' isn't defined for the type 'List<InvalidType>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:71:60 • undefined_getter
+  error • Undefined class 'RxBool' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:72:3 • undefined_class
+  error • The getter 'obs' isn't defined for the type 'bool' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:72:32 • undefined_getter
+  error • Undefined class 'RxBool' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:74:9 • undefined_class
+  error • The getter 'obs' isn't defined for the type 'bool' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:74:42 • undefined_getter
+  error • Undefined class 'RxList' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:76:9 • undefined_class
+  error • The getter 'obs' isn't defined for the type 'List<int>' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:76:58 • undefined_getter
+  error • Undefined class 'FocusNode' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:77:8 • undefined_class
+  error • Undefined class 'TextEditingController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:78:8 • undefined_class
+  error • Undefined class 'PageController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:81:3 • undefined_class
+warning • The value of the field '_pageController' isn't used • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:81:19 • unused_field
+  error • Undefined class 'Directory' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:83:8 • undefined_class
+warning • The value of the field '_dir' isn't used • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:83:18 • unused_field
+  error • Undefined class 'QuranState' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:89:3 • undefined_class
+  error • The method 'QuranState' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:89:22 • undefined_method
+warning • The method doesn't override an inherited method • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:92:8 • override_on_non_overriding_member
+  error • The method 'onInit' isn't defined in a superclass of 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:93:11 • undefined_super_member
+  error • Undefined name 'kIsWeb' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:96:10 • undefined_identifier
+  error • The method 'getApplicationDocumentsDirectory' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:97:20 • undefined_method
+  error • The method 'GetStorage' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:99:11 • undefined_method
+  error • The method '_StorageConstants' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:99:29 • undefined_method
+  error • The method 'initFontLoader' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:104:15 • undefined_method
+  error • The method 'prepareFonts' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:107:11 • undefined_method
+  error • The method 'FocusNode' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:113:23 • undefined_method
+  error • The method 'TextEditingController' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:114:28 • undefined_method
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:128:9 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:132:9 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:133:9 • undefined_method
+warning • The method doesn't override an inherited method • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:141:8 • override_on_non_overriding_member
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:152:5 • undefined_identifier
+  error • The method 'onClose' isn't defined in a superclass of 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:153:11 • undefined_super_member
+  error • Undefined name 'kIsWeb' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:156:10 • undefined_identifier
+  error • The method 'disposeFontLoader' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:157:7 • undefined_method
+  error • Undefined name 'SurahModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:187:33 • undefined_identifier
+  error • Undefined class 'AyahModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:231:3 • undefined_class
+  error • Undefined name 'AyahModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:238:21 • undefined_identifier
+  error • Undefined name 'QpcV4AssetsLoader' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:247:29 • undefined_identifier
+  error • The method 'QpcV4PageRenderer' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:248:30 • undefined_method
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:254:9 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:257:9 • undefined_method
+  error • Undefined name 'QpcHafsWordByWordAssetsLoader' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:270:31 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:272:9 • undefined_method
+  error • The method 'QpcV4PageRenderer' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:287:27 • undefined_method
+  error • The method 'Timer' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:309:30 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:349:7 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:394:7 • undefined_method
+  error • The method 'Timer' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:409:31 • undefined_method
+  error • The name 'QpcV4RenderBlock' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:416:8 • non_type_as_type_argument
+  error • The name 'QpcV4RenderBlock' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:431:19 • non_type_as_type_argument
+  error • The name 'QpcV4RenderBlock' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:434:8 • non_type_as_type_argument
+  error • The name 'QpcV4RenderBlock' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:441:8 • non_type_as_type_argument
+  error • The name 'QpcV4RenderBlock' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:451:19 • non_type_as_type_argument
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:485:22 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:510:7 • undefined_method
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:517:7 • undefined_method
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:522:8 • non_type_as_type_argument
+  error • The property 'page' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:524:54 • unchecked_use_of_nullable_value
+  error • The property 'ayahNumber' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:527:36 • unchecked_use_of_nullable_value
+  error • The property 'ayahNumber' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:527:59 • unchecked_use_of_nullable_value
+  error • Undefined name 'QuranRepository' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:533:25 • undefined_identifier
+  error • The method 'QuranPageModel' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:545:20 • undefined_method
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:550:12 • non_type_as_type_argument
+  error • Undefined name 'AyahModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:553:22 • undefined_identifier
+  error • The method 'SurahModel' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:573:22 • undefined_method
+  error • Undefined class 'QuranPageModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:586:12 • undefined_class
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:587:14 • non_type_as_type_argument
+  error • Undefined class 'AyahModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:588:14 • undefined_class
+  error • Undefined name 'AyahModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:599:25 • undefined_identifier
+  error • The method 'LineModel' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:607:38 • undefined_method
+  error • The method 'LineModel' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:617:32 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:621:7 • undefined_method
+  error • Undefined name 'SurahResponseModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:629:24 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:632:7 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:636:5 • undefined_method
+  error • The name 'AyahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:639:8 • non_type_as_type_argument
+  error • The property 'ayaTextEmlaey' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:650:31 • unchecked_use_of_nullable_value
+  error • The property 'arabicName' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:652:31 • unchecked_use_of_nullable_value
+  error • The property 'englishName' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:654:31 • unchecked_use_of_nullable_value
+  error • The property 'page' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:660:33 • unchecked_use_of_nullable_value
+  error • The method 'convertArabicNumbersToEnglish' isn't defined for the type 'String' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:662:18 • undefined_method
+  error • The property 'ayahNumber' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:670:39 • unchecked_use_of_nullable_value
+  error • The method 'convertArabicNumbersToEnglish' isn't defined for the type 'String' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:672:18 • undefined_method
+  error • The name 'SurahModel' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:698:8 • non_type_as_type_argument
+  error • The method 'convertArabicNumbersToEnglish' isn't defined for the type 'String' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:705:22 • undefined_method
+  error • The property 'arabicName' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:716:64 • unchecked_use_of_nullable_value
+  error • The property 'englishName' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:720:33 • unchecked_use_of_nullable_value
+  error • The property 'surahNumber' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:730:39 • unchecked_use_of_nullable_value
+  error • Undefined name 'SchedulerBinding' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:742:5 • undefined_identifier
+  error • Undefined name 'Priority' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:744:8 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:750:9 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:751:7 • undefined_method
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:752:7 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:756:7 • undefined_method
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:757:7 • undefined_identifier
+  error • The method 'PageController' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:757:30 • undefined_method
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:768:9 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:769:7 • undefined_method
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:772:7 • undefined_identifier
+  error • Undefined name 'Curves' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:775:16 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:778:7 • undefined_method
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:779:7 • undefined_identifier
+  error • The method 'PageController' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:779:30 • undefined_method
+  error • Undefined class 'PageController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:787:3 • undefined_class
+  error • Undefined class 'BuildContext' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:787:36 • undefined_class
+  error • Undefined class 'Orientation' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:788:11 • undefined_class
+  error • Undefined name 'MediaQuery' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:788:37 • undefined_identifier
+  error • Undefined name 'Responsive' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:794:9 • undefined_identifier
+  error • Undefined name 'Orientation' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:794:57 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:797:5 • undefined_method
+  error • Undefined name 'GetPlatform' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:798:41 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:803:38 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:804:10 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:811:11 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:812:27 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:822:29 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:823:7 • undefined_identifier
+  error • The method 'PageController' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:823:30 • undefined_method
+  error • Undefined name 'kIsWeb' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:825:19 • undefined_identifier
+  error • Undefined name 'GetPlatform' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:825:29 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:830:28 • undefined_identifier
+  error • Undefined name 'WidgetsBinding' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:831:9 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:840:12 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:845:5 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:857:5 • undefined_method
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:858:5 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:869:5 • undefined_method
+  error • The property 'surahNumber' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:899:48 • unchecked_use_of_nullable_value
+  error • The property 'page' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:918:34 • unchecked_use_of_nullable_value
+  error • Undefined class 'SurahModel' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:949:7 • undefined_class
+  error • The property 'surahNumber' can't be unconditionally accessed because the receiver can be 'null' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:951:44 • unchecked_use_of_nullable_value
+  error • The method 'convertArabicNumbersToEnglish' isn't defined for the type 'String' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:976:30 • undefined_method
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:993:5 • undefined_method
+  error • Undefined class 'Widget' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:996:3 • undefined_class
+  error • Undefined class 'ScaleUpdateDetails' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1004:24 • undefined_class
+  error • The method 'update' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1012:5 • undefined_method
+  error • Undefined class 'KeyEventResult' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1095:3 • undefined_class
+  error • Undefined class 'FocusNode' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1095:38 • undefined_class
+  error • Undefined class 'KeyEvent' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1095:54 • undefined_class
+  error • The name 'KeyDownEvent' isn't defined, so it can't be used in an 'is' expression • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1097:19 • type_test_with_undefined_name
+warning • Dead code • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1097:33 • dead_code
+  error • Undefined name 'KeyEventResult' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1097:40 • undefined_identifier
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1100:10 • undefined_identifier
+  error • Undefined name 'KeyEventResult' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1100:50 • undefined_identifier
+  error • Undefined name 'LogicalKeyboardKey' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1102:29 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1103:7 • undefined_method
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1104:7 • undefined_identifier
+  error • Undefined name 'Curves' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1106:16 • undefined_identifier
+  error • Undefined name 'KeyEventResult' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1108:14 • undefined_identifier
+  error • Undefined name 'LogicalKeyboardKey' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1109:36 • undefined_identifier
+  error • The method 'log' isn't defined for the type 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1110:7 • undefined_method
+  error • Undefined name 'quranPagesController' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1111:7 • undefined_identifier
+  error • Undefined name 'Curves' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1113:16 • undefined_identifier
+  error • Undefined name 'KeyEventResult' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1115:14 • undefined_identifier
+  error • Undefined name 'KeyEventResult' • packages/quran_library/lib/src/quran/presentation/controllers/quran/quran_ctrl.dart:1117:12 • undefined_identifier
+   info • The part-of directive uses a library name • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:1:1 • use_string_in_part_of_directives
+  error • Classes can only extend other classes • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:3:33 • extends_non_class
+  error • No associated named super constructor parameter • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:6:11 • super_formal_parameter_without_associated_named
+  error • Undefined class 'BannerStyle' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:14:9 • undefined_class
+  error • Undefined class 'SurahNameStyle' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:15:9 • undefined_class
+  error • Undefined class 'SurahNamesModel' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:16:23 • undefined_class
+  error • Undefined name 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:19:21 • undefined_identifier
+  error • Undefined class 'Widget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:22:3 • undefined_class
+warning • The method doesn't override an inherited method • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:22:10 • override_on_non_overriding_member
+  error • Undefined class 'BuildContext' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:22:16 • undefined_class
+  error • Undefined class 'SurahInfoStyle' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:24:11 • undefined_class
+  error • Undefined name 'SurahInfoTheme' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:25:10 • undefined_identifier
+  error • Undefined name 'SurahInfoStyle' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:26:13 • undefined_identifier
+  error • Undefined name 'MediaQuery' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:27:25 • undefined_identifier
+  error • The method 'GestureDetector' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:29:14 • undefined_method
+  error • The method 'surahInfoBottomSheetWidget' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:34:13 • undefined_method
+  error • The method 'Container' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:40:16 • undefined_method
+  error • Undefined name 'EdgeInsets' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:43:19 • undefined_identifier
+  error • Undefined name 'EdgeInsets' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:45:26 • undefined_identifier
+  error • The method 'BoxDecoration' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:46:23 • undefined_method
+  error • The method 'DecorationImage' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:47:20 • undefined_method
+  error • The method 'AssetImage' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:48:24 • undefined_method
+  error • Undefined name 'BoxFit' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:49:22 • undefined_identifier
+  error • Undefined name 'Alignment' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:51:22 • undefined_identifier
+  error • The method 'Text' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:52:18 • undefined_method
+  error • The method 'TextStyle' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:54:20 • undefined_method
+  error • Undefined name 'Colors' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:55:56 • undefined_identifier
+  error • Undefined name 'TextAlign' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:60:24 • undefined_identifier
+  error • The method 'Center' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:65:14 • undefined_method
+  error • The method 'Padding' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:66:16 • undefined_method
+  error • Undefined name 'EdgeInsets' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:67:20 • undefined_identifier
+  error • The method 'GestureDetector' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:70:18 • undefined_method
+  error • The method 'surahInfoBottomSheetWidget' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:75:17 • undefined_method
+  error • The method 'Stack' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:81:20 • undefined_method
+  error • Undefined name 'Alignment' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:82:26 • undefined_identifier
+  error • Undefined name 'SvgPicture' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:84:17 • undefined_identifier
+  error • Undefined name 'AssetsPath' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:86:23 • undefined_identifier
+  error • Undefined name 'ColorFilter' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:90:25 • undefined_identifier
+  error • Undefined name 'BlendMode' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:92:27 • undefined_identifier
+  error • Undefined name 'ColorFilter' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:94:25 • undefined_identifier
+  error • Undefined name 'Theme' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:95:27 • undefined_identifier
+  error • Undefined name 'BlendMode' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:96:27 • undefined_identifier
+  error • The method 'Text' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:110:17 • undefined_method
+  error • The method 'TextStyle' isn't defined for the type 'SurahHeaderWidget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:112:26 • undefined_method
+  error • Undefined name 'AppColors' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:114:26 • undefined_identifier
+  error • Undefined name 'TextAlign' • packages/quran_library/lib/src/quran/presentation/widgets/surah_header_widget.dart:120:30 • undefined_identifier
+   info • The part-of directive uses a library name • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:1:1 • use_string_in_part_of_directives
+  error • Classes can only extend other classes • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:6:34 • extends_non_class
+  error • No associated named super constructor parameter • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:8:11 • super_formal_parameter_without_associated_named
+  error • Undefined class 'BuildContext' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:32:9 • undefined_class
+  error • Undefined class 'QuranPageModel' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:33:9 • undefined_class
+  error • Undefined class 'Widget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:45:9 • undefined_class
+  error • Undefined class 'Color' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:47:9 • undefined_class
+  error • Undefined class 'Color' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:48:9 • undefined_class
+  error • Undefined class 'Color' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:49:9 • undefined_class
+  error • Undefined class 'Color' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:50:9 • undefined_class
+  error • Undefined class 'Color' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:51:9 • undefined_class
+  error • Undefined class 'LongPressStartDetails' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:55:23 • undefined_class
+  error • Undefined class 'AyahModel' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:55:54 • undefined_class
+  error • Undefined class 'SurahNamesModel' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:57:23 • undefined_class
+  error • Undefined class 'BannerStyle' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:59:9 • undefined_class
+  error • Undefined class 'SurahNameStyle' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:60:9 • undefined_class
+  error • Undefined class 'BasmalaStyle' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:61:9 • undefined_class
+  error • Undefined class 'Widget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:64:3 • undefined_class
+warning • The method doesn't override an inherited method • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:64:10 • override_on_non_overriding_member
+  error • Undefined class 'BuildContext' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:64:16 • undefined_class
+  error • Undefined name 'MediaQuery' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:65:24 • undefined_identifier
+  error • The method 'LayoutBuilder' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:72:12 • undefined_method
+  error • Undefined class 'Widget' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:74:9 • undefined_class
+  error • The method 'RepaintBoundary' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:74:27 • undefined_method
+  error • The method 'FittedBox' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:75:18 • undefined_method
+  error • Undefined name 'BoxFit' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:76:18 • undefined_identifier
+  error • The method 'SizedBox' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:77:20 • undefined_method
+  error • Undefined name 'Responsive' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:78:22 • undefined_identifier
+  error • The getter 'w' isn't defined for the type 'int' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:79:44 • undefined_getter
+  error • The method 'Column' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:81:22 • undefined_method
+  error • Undefined name 'MainAxisAlignment' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:82:36 • undefined_identifier
+  error • Undefined name 'CrossAxisAlignment' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:83:37 • undefined_identifier
+  error • The method 'SurahHeaderWidget' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:86:21 • undefined_method
+  error • The method 'BannerStyle' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:89:27 • undefined_method
+  error • Undefined name 'AssetsPath' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:91:44 • undefined_identifier
+  error • Undefined name 'Responsive' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:92:46 • undefined_identifier
+  error • The getter 'h' isn't defined for the type 'double' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:93:40 • undefined_getter
+  error • The getter 'h' isn't defined for the type 'double' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:94:40 • undefined_getter
+  error • The getter 'w' isn't defined for the type 'double' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:95:51 • undefined_getter
+  error • The method 'SurahNameStyle' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:101:27 • undefined_method
+  error • Undefined name 'Responsive' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:102:44 • undefined_identifier
+  error • The getter 'sp' isn't defined for the type 'int' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:103:38 • undefined_getter
+  error • The getter 'sp' isn't defined for the type 'int' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:104:38 • undefined_getter
+  error • Undefined name 'AppColors' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:105:45 • undefined_identifier
+  error • The method 'BasmallahWidget' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:111:21 • undefined_method
+  error • The method 'BasmalaStyle' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:114:27 • undefined_method
+  error • Undefined name 'AppColors' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:115:43 • undefined_identifier
+  error • The getter 'sp' isn't defined for the type 'double' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:116:51 • undefined_getter
+  error • The method 'GetBuilder' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:120:19 • undefined_method
+  error • The name 'BookmarksCtrl' isn't a type, so it can't be used as a type argument • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:120:30 • non_type_as_type_argument
+  error • The method 'PageBuild' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:122:49 • undefined_method
+  error • Undefined name 'QuranCtrl' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:144:34 • undefined_identifier
+  error • Undefined name 'MediaQuery' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:154:13 • undefined_identifier
+  error • Undefined name 'Orientation' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:154:51 • undefined_identifier
+  error • Undefined name 'Responsive' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:157:14 • undefined_identifier
+  error • Undefined name 'Responsive' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:158:17 • undefined_identifier
+  error • The method 'SingleChildScrollView' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:159:22 • undefined_method
+  error • The method 'TopAndBottomWidget' isn't defined for the type 'SurahPageViewBuild' • packages/quran_library/lib/src/quran/presentation/widgets/surah_page/surah_page_view_build.dart:162:16 • undefined_method
+

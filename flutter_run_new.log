@@ -1,0 +1,143 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                             21.7s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...        2,766ms
+D/FlutterJNI(19813): Beginning load of flutter...
+D/FlutterJNI(19813): flutter (null) was loaded normally!
+I/flutter (19813): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+I/flutter (19813): supabase.supabase_flutter: INFO: ***** Supabase init completed ***** 
+Syncing files to device sdk gphone64 x86 64...                  
+I/Choreographer(19813): Skipped 30 frames!  The application may be doing too much work on its main thread.
+Syncing files to device sdk gphone64 x86 64...                   1,352ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:62154/N2iWLVyMDI4=/
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at: http://127.0.0.1:9101?uri=http://127.0.0.1:62154/N2iWLVyMDI4=/
+D/ProfileInstaller(19813): Installing profile for com.example.alslat_aalnabi
+I/flutter (19813): [SOUND_LOAD] ===== LOADING SOUND START =====
+I/flutter (19813): [SOUND_LOAD] ID: 737965ba-4368-4e53-862f-8b0402f2ade9
+I/flutter (19813): [SOUND_LOAD] Title: salah 1
+I/flutter (19813): [SOUND_LOAD] Language: ar
+I/flutter (19813): [SOUND_LOAD] Sound binary found - Type: String
+I/flutter (19813): [SOUND_LOAD] String length: 469152 characters
+I/flutter (19813): [SOUND_LOAD] Detected: Base64 format
+I/flutter (19813): [SOUND_LOAD] √ Decoded: 351862 bytes
+I/flutter (19813): [SOUND_LOAD] Audio header (first 4 bytes): 49 44 33 04
+I/flutter (19813): [SOUND_LOAD] Final result: soundBinary=351862 bytes
+I/flutter (19813): [SOUND_LOAD] ===== LOADING SOUND END =====
+I/flutter (19813): [SOUND_LOAD] ===== LOADING SOUND START =====
+I/flutter (19813): [SOUND_LOAD] ID: fcb98f81-cb4e-4c09-bdad-8a9600bd57f0
+I/flutter (19813): [SOUND_LOAD] Title: salah2
+I/flutter (19813): [SOUND_LOAD] Language: ar
+I/flutter (19813): [SOUND_LOAD] Sound binary found - Type: String
+I/flutter (19813): [SOUND_LOAD] String length: 197756 characters
+I/flutter (19813): [SOUND_LOAD] Detected: Base64 format
+I/flutter (19813): [SOUND_LOAD] √ Decoded: 148316 bytes
+I/flutter (19813): [SOUND_LOAD] Audio header (first 4 bytes): 49 44 33 04
+I/flutter (19813): [SOUND_LOAD] Final result: soundBinary=148316 bytes
+I/flutter (19813): [SOUND_LOAD] ===== LOADING SOUND END =====
+I/flutter (19813): [SOUND_LOAD] ===== LOADING SOUND START =====
+I/flutter (19813): [SOUND_LOAD] ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19813): [SOUND_LOAD] Title: default
+I/flutter (19813): [SOUND_LOAD] Language: ar
+I/flutter (19813): [SOUND_LOAD] Sound binary found - Type: String
+I/flutter (19813): [SOUND_LOAD] String length: 98540 characters
+I/flutter (19813): [SOUND_LOAD] Detected: Base64 format
+I/flutter (19813): [SOUND_LOAD] √ Decoded: 73905 bytes
+I/flutter (19813): [SOUND_LOAD] Audio header (first 4 bytes): 49 44 33 04
+I/flutter (19813): [SOUND_LOAD] Final result: soundBinary=73905 bytes
+I/flutter (19813): [SOUND_LOAD] ===== LOADING SOUND END =====
+I/flutter (19813): ========== SCHEDULING REMINDERS ==========
+I/flutter (19813): Reminders Enabled: true
+I/flutter (19813): Interval: 15 minutes
+I/flutter (19813): Selected Format: اللهم صل وسلم على نبينا محمد
+I/flutter (19813): Selected Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/Choreographer(19813): Skipped 45 frames!  The application may be doing too much work on its main thread.
+I/flutter (19813): ========== SCHEDULING REMINDERS ==========
+I/flutter (19813): Reminders Enabled: true
+I/flutter (19813): Interval: 15 minutes
+I/flutter (19813): Selected Format: اللهم صل وسلم على نبينا محمد
+I/flutter (19813): Selected Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19813): √ All previous notifications cancelled
+I/flutter (19813): [SOUND_LOAD] √ Found saved reminder sound in local storage
+I/flutter (19813): [SOUND_LOAD] Sound title: default
+I/flutter (19813): [SOUND_LOAD] √ Loaded saved sound from local storage: 73905 bytes
+I/flutter (19813): [SCHEDULE] Setting up notification callback to play audio...
+I/flutter (19813): [SCHEDULE] Calling scheduleRepeatingNotification...
+I/flutter (19813): [SCHEDULE] Sound available: true
+I/flutter (19813): [SCHEDULE] Reminder Interval: 15 minutes
+I/flutter (19813): [NOTIFICATION] ===== NOTIFICATION SCHEDULING START =====
+I/flutter (19813): [NOTIFICATION] ID: 1, Title: تذكير الصلاة على النبي
+I/flutter (19813): [NOTIFICATION] Interval: 15 minutes
+I/flutter (19813): [NOTIFICATION] Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19813): [NOTIFICATION] Scheduling notification every 15 minutes
+I/flutter (19813): [NOTIFICATION] Canceling existing notifications...
+I/flutter (19813): √ All previous notifications cancelled
+I/flutter (19813): [SOUND_LOAD] √ Found saved reminder sound in local storage
+I/flutter (19813): [SOUND_LOAD] Sound title: default
+I/flutter (19813): [SOUND_LOAD] √ Loaded saved sound from local storage: 73905 bytes
+I/flutter (19813): [SCHEDULE] Setting up notification callback to play audio...
+I/flutter (19813): [SCHEDULE] Calling scheduleRepeatingNotification...
+I/flutter (19813): [SCHEDULE] Sound available: true
+I/flutter (19813): [SCHEDULE] Reminder Interval: 15 minutes
+I/flutter (19813): [NOTIFICATION] ===== NOTIFICATION SCHEDULING START =====
+I/flutter (19813): [NOTIFICATION] ID: 1, Title: تذكير الصلاة على النبي
+I/flutter (19813): [NOTIFICATION] Interval: 15 minutes
+I/flutter (19813): [NOTIFICATION] Sound ID: 131b4386-876a-4519-aba0-ca45ddaaba66
+I/flutter (19813): [NOTIFICATION] Scheduling notification every 15 minutes
+I/flutter (19813): [NOTIFICATION] Canceling existing notifications...
+I/flutter (19813): [NOTIFICATION] Showing first notification (without system sound)...
+I/flutter (19813): [NOTIFICATION] Showing first notification (without system sound)...
+I/flutter (19813): [NOTIFICATION] √ First notification shown
+I/flutter (19813): [SCHEDULE] Notification shown callback triggered - playing audio
+I/flutter (19813): [AUDIO] Playing reminder sound...
+I/flutter (19813): [NOTIFICATION] Scheduling notification 1 to dismiss after 8 seconds
+I/flutter (19813): [NOTIFICATION] Starting Timer for recurring notifications...
+I/flutter (19813): [NOTIFICATION] √ Timer scheduled for every 15 minutes
+I/flutter (19813): [SCHEDULE] √ Reminders scheduled successfully
+I/flutter (19813): [SCHEDULE] Auto-dismiss after: 8 seconds
+I/flutter (19813): [SCHEDULE] Next reminder in 15 minutes
+I/flutter (19813): =========================================
+I/flutter (19813): [NOTIFICATION] √ First notification shown
+I/flutter (19813): [SCHEDULE] Notification shown callback triggered - playing audio
+I/flutter (19813): [AUDIO] Playing reminder sound...
+I/flutter (19813): [NOTIFICATION] Scheduling notification 1 to dismiss after 8 seconds
+I/flutter (19813): [NOTIFICATION] Starting Timer for recurring notifications...
+I/flutter (19813): [NOTIFICATION] √ Timer scheduled for every 15 minutes
+I/flutter (19813): [SCHEDULE] √ Reminders scheduled successfully
+I/flutter (19813): [SCHEDULE] Auto-dismiss after: 8 seconds
+I/flutter (19813): [SCHEDULE] Next reminder in 15 minutes
+I/flutter (19813): =========================================
+D/InsetsController(19813): hide(ime(), fromIme=false)
+I/ImeTracker(19813): com.example.alslat_aalnabi:a865280e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/AudioSystem(19813): onNewServiceWithAdapter: media.audio_flinger service obtained 0x7fb5b7ef5ae0
+D/AudioSystem(19813): getService: checking for service media.audio_flinger: 0x7fb677ea35f0
+V/MediaPlayer(19813): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19813): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+V/MediaPlayer(19813): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19813): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/flutter (19813): [AUDIO] √ Reminder sound playback initiated
+I/flutter (19813): [AUDIO] √ Reminder sound playback initiated
+I/flutter (19813): [QURAN] Starting loadAllChapters()
+I/flutter (19813): [QURAN] Calling _dataService.getAllChapters()
+I/flutter (19813): [API] Fetching chapters from: https://api.alquran.cloud/v1/chapters
+V/MediaPlayer(19813): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19813): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+V/MediaPlayer(19813): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer(19813): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/flutter (19813): [API] Response status: 404
+I/flutter (19813): [API] Primary API returned 404, trying fallback...
+I/flutter (19813): [API] Fetching chapters from: https://api.quran.com/api/v4/chapters
+I/flutter (19813): [API] Response status: 200
+I/flutter (19813): [API] Successfully fetched 114 chapters
+I/flutter (19813): [QURAN] Loaded 114 chapters successfully
+I/flutter (19813): [QURAN] Finished loadAllChapters(), isLoading=false
+I/flutter (19813): [NOTIFICATION] Auto-dismissing notification 1
+I/flutter (19813): [NOTIFICATION] √ Notification 1 auto-dismissed
