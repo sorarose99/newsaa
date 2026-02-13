@@ -65,6 +65,12 @@ class SettingsProvider extends ChangeNotifier {
     _notifyInSilent = _storage.getNotifyInSilentMode();
     _notificationVolume = _storage.getNotificationVolume();
     _selectedReminderSoundId = _storage.getSelectedReminderSoundId();
+    // Set default sound if none is selected
+    if (_selectedReminderSoundId == null) {
+      _selectedReminderSoundId = 'default_sound';
+      _storage.setSelectedReminderSoundId('default_sound');
+    }
+
     _savedReminderSound = _storage.getSavedReminderSound();
     _quranTheme = _storage.getQuranTheme();
     // Force reset from blue to green as per user request for new default
@@ -239,7 +245,8 @@ class SettingsProvider extends ChangeNotifier {
         soundBinary = null;
       }
     } else if (_selectedReminderSoundId != null &&
-        _selectedReminderSoundId!.isNotEmpty) {
+        _selectedReminderSoundId!.isNotEmpty &&
+        _selectedReminderSoundId != 'default_sound') {
       debugPrint(
         '[SOUND_LOAD] No saved sound found, fetching from ContentService by ID...',
       );

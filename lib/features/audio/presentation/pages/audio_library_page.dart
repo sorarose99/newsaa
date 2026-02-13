@@ -27,6 +27,15 @@ class _AudioLibraryPageState extends State<AudioLibraryPage> {
     _audioService.initialize();
     _volume = _audioService.volume;
     _soundsFuture = _loadSounds();
+
+    // Initialize selected ID from provider
+    final settingsProvider = Provider.of<SettingsProvider>(
+      context,
+      listen: false,
+    );
+    _selectedSoundId =
+        settingsProvider.selectedReminderSoundId ?? 'default_sound';
+
     _audioService.setOnPlaybackComplete(() {
       if (mounted) {
         setState(() {
