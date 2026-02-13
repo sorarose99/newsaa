@@ -4,7 +4,7 @@ import 'package:alslat_aalnabi/core/services/storage_service.dart';
 import 'package:alslat_aalnabi/core/services/audio_service.dart';
 import 'package:alslat_aalnabi/core/services/notification_service.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
-import 'package:alslat_aalnabi/features/admin/data/services/content_service.dart';
+
 import 'package:alslat_aalnabi/features/quran/presentation/controllers/theme_controller.dart'
     as theme_controller;
 
@@ -12,7 +12,6 @@ class SettingsProvider extends ChangeNotifier {
   final StorageService _storage = StorageService();
   final NotificationService _notifications = NotificationService();
   final AudioService _audioService = AudioService();
-  final ContentService _contentService = ContentService();
 
   bool _isDarkMode = false;
   bool _isReminderEnabled = true;
@@ -78,6 +77,19 @@ class SettingsProvider extends ChangeNotifier {
       _quranTheme = 'green';
       _storage.setQuranTheme('green');
     }
+
+    // Migration: Force switch from legacy "default" item (sec) to "default_sound" (first)
+    // This handles the user feedback "no choose the first not the sec"
+    if (_savedReminderSound != null &&
+        (_savedReminderSound!['title'] == 'default' ||
+            _selectedReminderSoundId == 'default')) {
+      debugPrint('Migrating from legacy "default" sound to "default_sound"');
+      _selectedReminderSoundId = 'default_sound';
+      _savedReminderSound = null;
+      _storage.setSelectedReminderSoundId('default_sound');
+      _storage.clearSavedReminderSound();
+    }
+
     _loadTimeRangeTimes();
     notifyListeners();
   }
@@ -244,66 +256,10 @@ class SettingsProvider extends ChangeNotifier {
         debugPrint('[SOUND_LOAD] ✗ Error loading saved reminder sound: $e');
         soundBinary = null;
       }
-    } else if (_selectedReminderSoundId != null &&
-        _selectedReminderSoundId!.isNotEmpty &&
-        _selectedReminderSoundId != 'default_sound') {
       debugPrint(
-        '[SOUND_LOAD] No saved sound found, fetching from ContentService by ID...',
+        '[SOUND_LOAD] Custom sounds disabled - only default sound allowed',
       );
-      try {
-        debugPrint('[SOUND_LOAD] Fetching sounds from ContentService...');
-        final sounds = await _contentService.getPrayerFormulaSounds();
-        debugPrint('[SOUND_LOAD] Total sounds fetched: ${sounds.length}');
-
-        if (sounds.isEmpty) {
-          debugPrint('[SOUND_LOAD] ⚠ No sounds available in ContentService');
-        } else {
-          debugPrint(
-            '[SOUND_LOAD] Available sound IDs: ${sounds.map((s) => s.id).toList()}',
-          );
-        }
-
-        try {
-          final selectedSound = sounds.firstWhere(
-            (sound) => sound.id == _selectedReminderSoundId,
-          );
-          debugPrint(
-            '[SOUND_LOAD] Found sound: ${selectedSound.title} (${selectedSound.language})',
-          );
-
-          if (selectedSound.soundBinary != null &&
-              selectedSound.soundBinary!.isNotEmpty) {
-            soundBinary = selectedSound.soundBinary;
-            debugPrint(
-              '[SOUND_LOAD] ✓ Sound binary loaded: ${soundBinary!.length} bytes',
-            );
-
-            final soundDataMap = {
-              'id': selectedSound.id,
-              'title': selectedSound.title,
-              'language': selectedSound.language,
-              'sound_binary': selectedSound.soundBinary,
-              'created_at': selectedSound.createdAt?.toIso8601String(),
-            };
-            await setSavedReminderSound(soundDataMap);
-            debugPrint(
-              '[SOUND_LOAD] ✓ Saved sound to local storage for offline access',
-            );
-          } else {
-            debugPrint('[SOUND_LOAD] ✗ Sound binary is empty or null');
-            soundBinary = null;
-          }
-        } catch (e) {
-          debugPrint(
-            '[SOUND_LOAD] ✗ Selected reminder sound not found: $_selectedReminderSoundId',
-          );
-          debugPrint('[SOUND_LOAD] Error: $e');
-          soundBinary = null;
-        }
-      } catch (e) {
-        debugPrint('[SOUND_LOAD] ✗ Error fetching reminder sounds: $e');
-        soundBinary = null;
-      }
+      soundBinary = null;
     } else {
       debugPrint(
         '[SOUND_LOAD] ⚠ No reminder sound selected (ID is null or empty)',

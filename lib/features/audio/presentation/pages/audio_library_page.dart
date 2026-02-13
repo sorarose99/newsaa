@@ -59,7 +59,16 @@ class _AudioLibraryPageState extends State<AudioLibraryPage> {
       soundBinary: null,
     );
 
-    return [defaultSound, ...remoteSounds];
+    // Filter out any remote sound that tries to be "default" to avoid duplicates/confusion
+    // This specifically targets the issue where a second "default" sound appears
+    final filteredRemoteSounds = remoteSounds.where((sound) {
+      return sound.id != 'default' &&
+          sound.title.toLowerCase() != 'default' &&
+          sound.title !=
+              'الصوت الافتراضي'; // Also filter if it has the same Arabic title
+    }).toList();
+
+    return [defaultSound, ...filteredRemoteSounds];
   }
 
   @override
