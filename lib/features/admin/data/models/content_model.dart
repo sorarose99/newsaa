@@ -252,6 +252,14 @@ class PrayerFormulaSound {
     debugPrint('[SOUND_LOAD] ID: $id');
     debugPrint('[SOUND_LOAD] Title: $title');
     debugPrint('[SOUND_LOAD] Language: $language');
+    debugPrint('[SOUND_LOAD] JSON keys: ${json.keys.toList()}');
+    debugPrint(
+      '[SOUND_LOAD] Has sound_binary key: ${json.containsKey('sound_binary')}',
+    );
+    debugPrint('[SOUND_LOAD] Has url key: ${json.containsKey('url')}');
+    if (json.containsKey('url')) {
+      debugPrint('[SOUND_LOAD] URL value: ${json['url']}');
+    }
 
     if (json['sound_binary'] != null) {
       final soundData = json['sound_binary'];
@@ -266,6 +274,9 @@ class PrayerFormulaSound {
           debugPrint(
             '[SOUND_LOAD] String length: ${soundData.length} characters',
           );
+          debugPrint(
+            '[SOUND_LOAD] First 100 chars: ${soundData.substring(0, soundData.length > 100 ? 100 : soundData.length)}',
+          );
 
           try {
             if (soundData.startsWith('\\x')) {
@@ -278,13 +289,34 @@ class PrayerFormulaSound {
                 RegExp(r'\s'),
                 '',
               );
+
+              debugPrint(
+                '[SOUND_LOAD] After normalization: ${normalizedData.length} chars',
+              );
+
+              // Validate base64 characters
+              final base64Pattern = RegExp(r'^[A-Za-z0-9+/]*={0,2}$');
+              if (!base64Pattern.hasMatch(normalizedData)) {
+                debugPrint(
+                  '[SOUND_LOAD] ✗ ERROR: Invalid base64 characters detected',
+                );
+                throw FormatException('Invalid base64 string');
+              }
+
               if (normalizedData.length % 4 != 0) {
+                final originalLength = normalizedData.length;
                 normalizedData = normalizedData.substring(
                   0,
                   normalizedData.length - (normalizedData.length % 4),
                 );
+                debugPrint(
+                  '[SOUND_LOAD] Adjusted length from $originalLength to ${normalizedData.length} for base64 padding',
+                );
               }
+
+              debugPrint('[SOUND_LOAD] Attempting base64 decode...');
               soundBinary = base64Decode(normalizedData);
+              debugPrint('[SOUND_LOAD] ✓ Base64 decode successful');
             }
 
             debugPrint('[SOUND_LOAD] ✓ Decoded: ${soundBinary.length} bytes');
@@ -297,9 +329,13 @@ class PrayerFormulaSound {
               debugPrint(
                 '[SOUND_LOAD] Audio header (first 4 bytes): $headerHex',
               );
+            } else if (soundBinary.isEmpty) {
+              debugPrint('[SOUND_LOAD] ✗ WARNING: Decoded binary is empty!');
+              soundBinary = null;
             }
-          } catch (e) {
+          } catch (e, stackTrace) {
             debugPrint('[SOUND_LOAD] ✗ ERROR decoding sound binary: $e');
+            debugPrint('[SOUND_LOAD] Stack trace: $stackTrace');
             soundBinary = null;
           }
         }

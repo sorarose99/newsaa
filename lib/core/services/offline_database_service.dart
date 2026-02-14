@@ -684,13 +684,30 @@ class OfflineDatabaseService {
       final db = await database;
       final results = await db.query('prayer_formula_sounds');
       developer.log(
-        'Retrieved ${results.length} prayer formula sounds from local db',
+        '[DB_SOUNDS] Retrieved ${results.length} prayer formula sounds from local db',
       );
 
       return results.map((row) {
+        final soundBinary = row['sound_binary'];
+        final soundBinaryType = soundBinary?.runtimeType.toString() ?? 'null';
+        final soundBinaryLength = soundBinary is String
+            ? soundBinary.length
+            : 0;
+        final soundBinaryPreview =
+            soundBinary is String && soundBinary.isNotEmpty
+            ? soundBinary.substring(
+                0,
+                soundBinary.length > 50 ? 50 : soundBinary.length,
+              )
+            : 'N/A';
+
         developer.log(
-          'Prayer formula sound row: id=${row['id']}, has_sound=${row['sound_binary'] != null && (row['sound_binary'] as String?)?.isNotEmpty == true}',
+          '[DB_SOUNDS] Sound: id=${row['id']}, title=${row['title']}, '
+          'sound_binary_type=$soundBinaryType, '
+          'sound_binary_length=$soundBinaryLength chars, '
+          'preview=$soundBinaryPreview',
         );
+
         return {
           ...row,
           if (row['is_active'] is int)

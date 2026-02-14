@@ -362,6 +362,12 @@ class _AudioLibraryPageState extends State<AudioLibraryPage> {
             );
           }
           await _audioService.playBinarySound(sound.soundBinary!);
+        } else if (sound.url != null && sound.url!.isNotEmpty) {
+          // Fallback: play from URL if binary data is not available
+          debugPrint('[AUDIO_LIBRARY] Playing from URL: ${sound.url}');
+          await _audioService.playFromUrl(sound.url!);
+        } else {
+          throw Exception('لا توجد بيانات صوتية أو رابط للتشغيل');
         }
       } catch (e) {
         if (mounted) {

@@ -200,6 +200,40 @@ class AudioService {
         );
       }
 
+      // Validate audio header early
+      if (soundBinary.length >= 4) {
+        final header = soundBinary.sublist(0, 4);
+        final headerHex = header
+            .map((b) => b.toRadixString(16).padLeft(2, '0'))
+            .join(' ');
+        developer.log('[AUDIO_PLAY] Audio header bytes: $headerHex');
+
+        // Check for known audio formats
+        final isValidAudio =
+            // MP3 MPEG frame sync
+            (header[0] == 0xFF && (header[1] & 0xE0) == 0xE0) ||
+            // MP3 ID3 tag
+            (header[0] == 0x49 && header[1] == 0x44 && header[2] == 0x33) ||
+            // M4A/AAC (ftyp)
+            (header[0] == 0x66 &&
+                header[1] == 0x74 &&
+                header[2] == 0x79 &&
+                header[3] == 0x70) ||
+            // WAV (RIFF)
+            (header[0] == 0x52 &&
+                header[1] == 0x49 &&
+                header[2] == 0x46 &&
+                header[3] == 0x46);
+
+        if (!isValidAudio) {
+          developer.log(
+            '[AUDIO_PLAY] ⚠ WARNING: Audio header does not match known formats - attempting playback anyway',
+          );
+        } else {
+          developer.log('[AUDIO_PLAY] ✓ Valid audio header detected');
+        }
+      }
+
       developer.log('[AUDIO_PLAY] Stopping any current playback...');
       await _audioPlayer.stop();
 
